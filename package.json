@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development nodemon src/server.js",
     "clean": "rmdir /s /q node_modules && del package-lock.json && npm install",
-    "start": "cross-env NODE_ENV=production node src/server.js"
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
