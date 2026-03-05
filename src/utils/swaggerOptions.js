@@ -29,6 +29,10 @@ This API allows management of users and notes with the following features:
         url: "http://localhost:5000",
         description: "Local Development Server",
       },
+       {
+        url: "https://note-app-crud-operations.onrender.com",
+        description: "Deployed Render Server",
+      },
     ],
   },
   apis: [
